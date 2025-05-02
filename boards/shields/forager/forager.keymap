@@ -80,5 +80,24 @@
             >;
         };
 
+        LMOD {
+            display-name = "LMOD";
+            bindings = <
+            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
+            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
+            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
+                                                                                            &trans          &trans          &trans          &trans
+            >;
+        };
+
+        RMOD {
+            display-name = "RMOD";
+            bindings = <
+            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
+            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
+            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
+                                                                                            &trans          &trans          &trans          &trans
+            >;
+        };
     };
 };
