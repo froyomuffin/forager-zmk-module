@@ -81,6 +81,16 @@
     keymap {
         compatible = "zmk,keymap";
 
+        /* REF { */
+        /*     display-name = "REF"; */
+        /*     bindings = < */
+        /*     &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans */
+        /*     &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans */
+        /*     &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans */
+        /*                                                                                     &trans          &trans          &trans          &trans */
+        /*     >; */
+        /* }; */
+
         base {
             bindings = <
             &kp Q           &kp W           &kp F           &kp P           &kp B                                           &kp J           &kp L           &kp U           &kp Y           AS(SEMI)
