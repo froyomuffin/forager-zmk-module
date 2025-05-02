@@ -84,9 +84,9 @@
         LMOD {
             display-name = "LMOD";
             bindings = <
-            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
-            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
-            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
+            &trans          &trans          &trans          &trans          &trans          &kp LBRC                                        &kp RBRC        &trans          &trans          &trans          &trans          &trans
+            &trans          &trans          &trans          &trans          &trans          &kp LBKT                                        &kp RBKT        &trans          &trans          &trans          &trans          &trans
+            &trans          &trans          &trans          &trans          &trans          &kp LPAR                                        &kp RPAR        &trans          &trans          &trans          &trans          &trans
                                                                                             &trans          &trans          &trans          &trans
             >;
         };
@@ -94,9 +94,9 @@
         RMOD {
             display-name = "RMOD";
             bindings = <
-            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
-            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
-            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
+            &trans          &trans          &trans          &trans          &trans          &kp LBRC                                        &kp RBRC        &trans          &trans          &trans          &trans          &trans
+            &trans          &trans          &trans          &trans          &trans          &kp LBKT                                        &kp RBKT        &trans          &trans          &trans          &trans          &trans
+            &trans          &trans          &trans          &trans          &trans          &kp LPAR                                        &kp RPAR        &trans          &trans          &trans          &trans          &trans
                                                                                             &trans          &trans          &trans          &trans
             >;
         };
