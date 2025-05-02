@@ -90,30 +90,30 @@
         LMOD {
             display-name = "LMOD";
             bindings = <
-            &trans          &trans          &trans          &kp UP          &trans          &kp LBRC                                        &kp RBRC        &kp N7          &kp N8          &kp N9          &kp N0          &trans
-            &trans          &trans          &kp LEFT        &kp DOWN        &kp RIGHT       &kp LBKT                                        &kp RBKT        &kp N4          &kp N5          &kp N6          &trans          &trans
-            &trans          &trans          &trans          &trans          &trans          &kp LPAR                                        &kp RPAR        &kp N1          &kp N2          &kp N3          &trans          &trans
-                                                                                            &trans          &trans          &trans          &mo CO
+            &none           &none           &none           &kp UP          &none           &kp LBRC                                        &kp RBRC        &kp N7          &kp N8          &kp N9          &kp N0          &none
+            &none           &none           &kp LEFT        &kp DOWN        &kp RIGHT       &kp LBKT                                        &kp RBKT        &kp N4          &kp N5          &kp N6          &none           &none
+            &none           &none           &none           &none           &none           &kp LPAR                                        &kp RPAR        &kp N1          &kp N2          &kp N3          &none           &none
+                                                                                            &trans          &none           &none           &mo CO
             >;
         };
 
         RMOD {
             display-name = "RMOD";
             bindings = <
-            &trans          &trans          &trans          &kp UP          &trans          &kp LBRC                                        &kp RBRC        &kp N7          &kp N8          &kp N9          &kp N0          &trans
-            &trans          &trans          &kp LEFT        &kp DOWN        &kp RIGHT       &kp LBKT                                        &kp RBKT        &kp N4          &kp N5          &kp N6          &trans          &trans
-            &trans          &trans          &trans          &trans          &trans          &kp LPAR                                        &kp RPAR        &kp N1          &kp N2          &kp N3          &trans          &trans
-                                                                                            &mo CO          &trans          &trans          &trans
+            &none           &none           &none           &kp UP          &none           &kp LBRC                                        &kp RBRC        &kp N7          &kp N8          &kp N9          &kp N0          &none
+            &none           &none           &kp LEFT        &kp DOWN        &kp RIGHT       &kp LBKT                                        &kp RBKT        &kp N4          &kp N5          &kp N6          &none           &none
+            &none           &none           &none           &none           &none           &kp LPAR                                        &kp RPAR        &kp N1          &kp N2          &kp N3          &none           &none
+                                                                                            &mo CO          &none           &none           &trans
             >;
         };
 
         CONFIG {
             display-name = "CONFIG";
             bindings = <
-            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
-            &trans          &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &trans
-            &sys_reset      &trans          &trans          &trans          &trans          &trans                                          &trans          &trans          &trans          &trans          &trans          &bootloader
-                                                                                            &trans          &trans          &trans          &trans
+            &none           &none           &none           &none           &none           &none                                           &none           &none           &none           &none           &none           &none
+            &none           &none           &none           &none           &none           &none                                           &none           &none           &none           &none           &none           &none
+            &sys_reset      &none           &none           &none           &none           &none                                           &none           &none           &none           &none           &none           &bootloader
+                                                                                            &none           &none           &none           &none
             >;
         };
     };
