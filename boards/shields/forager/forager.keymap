@@ -50,7 +50,7 @@
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
-        gresc: grave_escape {
+        g_resc: grave_escape {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&kp GRAVE>;
@@ -74,12 +74,7 @@
       combo_esc {
         timeout-ms = <30>;
         key-positions = <0 1>;
-        bindings = <&gresc>;
-      };
-      combo_tilde {
-        timeout-ms = <30>;
-        key-positions = <0 24>;
-        bindings = <&kp TILDE>;
+        bindings = <&kp GRAVE>;
       };
       combo_minus {
         timeout-ms = <30>;
@@ -91,11 +86,6 @@
         key-positions = <7 8>;
         bindings = <&kp EQUAL>;
       };
-      combo_shift {
-        timeout-ms = <30>;
-        key-positions = <37 38>;
-        bindings = <&kp LSHIFT>;
-      };
       combo_lgui {
         timeout-ms = <30>;
         key-positions = <24 25>;
@@ -105,11 +95,6 @@
         timeout-ms = <30>;
         key-positions = <36 37>;
         bindings = <&kp LGUI>;
-      };
-      combo_play_r {
-        timeout-ms = <30>;
-        key-positions = <34 35>;
-        bindings = <&kp C_PP>;
       };
       combo_switch_to_base {
         timeout-ms = <30>;
@@ -159,7 +144,7 @@
         Base {
             display-name = "Base";
             bindings = <
-            &kp ESC         &kp Q           &kp W           &kp E           &kp R           &kp T                                           &kp Y           &kp U           &kp I           &kp O           &kp P           &kp BSLH
+            &g_resc         &kp Q           &kp W           &kp E           &kp R           &kp T                                           &kp Y           &kp U           &kp I           &kp O           &kp P           &kp BSLH
             &kp TAB         &kp A           &kp S           &kp D           &kp F           &kp G                                           &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp SQT
             &l_cgui         &kp Z           &kp X           &kp C           &kp V           &kp B                                           &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp BSPC
                                                                                             &mo LM          &mt LSHFT SPACE &mt RSHFT RET   &mo RM
