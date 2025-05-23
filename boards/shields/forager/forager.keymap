@@ -96,6 +96,11 @@
         key-positions = <37 38>;
         bindings = <&kp LSHIFT>;
       };
+      combo_lgui {
+        timeout-ms = <30>;
+        key-positions = <36 37>;
+        bindings = <&kp LGUI>;
+      };
       combo_play_l {
         timeout-ms = <30>;
         key-positions = <24 25>;
