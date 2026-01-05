@@ -39,10 +39,10 @@ Then add `forager_left` and `forager_right` shields to your `build.yaml`:
 ```yaml
 ---
 include:
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: forager_left rgbled_adapter
     snippet: studio-rpc-usb-uart
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: forager_right rgbled_adapter
 ```
 
