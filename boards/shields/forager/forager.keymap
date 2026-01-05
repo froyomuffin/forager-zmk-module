@@ -62,11 +62,17 @@
             tapping-term-ms = <200>;
             bindings = <&kp LCTRL>, <&kp LGUI>;
         };
-         l_mgui: left_mod_gui {
+        l_mgui: left_mod_gui {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mo LM>, <&kp LGUI>;
+        };
+        l_stab: left_shift_tab {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHIFT>, <&kp TAB>;
         };
     };
 
@@ -117,12 +123,17 @@
         key-positions = <25 16 37 38 19 34>;
         bindings = <&to CO>;
       };
+      combo_cut {
+        timeout-ms = <30>;
+        key-positions = <25 26>;
+        bindings = <&kp LC(X)>;
+      };
       combo_copy {
         timeout-ms = <30>;
         key-positions = <26 27>;
         bindings = <&kp LC(C)>;
       };
-      combo_paste {
+     combo_paste {
         timeout-ms = <30>;
         key-positions = <27 28>;
         bindings = <&kp LC(V)>;
@@ -151,7 +162,7 @@
             display-name = "Base";
             bindings = <
             &g_resc         &kp Q           &kp W           &kp E           &kp R           &kp T                                           &kp Y           &kp U           &kp I           &kp O           &kp P           &kp BSLH
-            &kp TAB         &kp A           &mt LCTRL S     &mt LALT D      &mt LGUI F      &kp G                                           &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp SQT
+            &l_stab         &kp A           &mt LCTRL S     &mt LALT D      &mt LGUI F      &kp G                                           &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp SQT
             &l_cgui         &kp Z           &kp X           &kp C           &kp V           &kp B                                           &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp BSPC
                                                                                             &l_mgui         &mt LSHFT SPACE &mt RSHFT RET   &mo RM
             >;
@@ -161,8 +172,8 @@
             display-name = "LMOD";
             bindings = <
             &kp DEL         &none           &none           &kp UP          &none           &kp LBRC                                        &kp RBRC        &kp N7          &kp N8          &kp N9          &kp N0          &none
-            &none           &none           &kp LEFT        &kp DOWN        &kp RIGHT       &kp LBKT                                        &kp RBKT        &kp N4          &kp N5          &kp N6          &none           &none
-            &none           &none           &none           &none           &none           &kp LPAR                                        &kp RPAR        &kp N1          &kp N2          &kp N3          &none           &kp BSPC
+            &trans          &none           &kp LEFT        &kp DOWN        &kp RIGHT       &kp LBKT                                        &kp RBKT        &kp N4          &kp N5          &kp N6          &none           &none
+            &trans          &none           &none           &none           &none           &kp LPAR                                        &kp RPAR        &kp N1          &kp N2          &kp N3          &none           &kp BSPC
                                                                                             &trans          &kp RET         &none           &trans
             >;
         };
