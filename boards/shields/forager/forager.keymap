@@ -132,6 +132,26 @@
         key-positions = <27 28>;
         bindings = <&kp LC(V)>;
       };
+      combo_cut_mac {
+        timeout-ms = <30>;
+        key-positions = <25 26 37>;
+        bindings = <&kp LG(X)>;
+      };
+      combo_copy_mac {
+        timeout-ms = <30>;
+        key-positions = <26 27 37>;
+        bindings = <&kp LG(C)>;
+      };
+      combo_paste_mac {
+        timeout-ms = <30>;
+        key-positions = <27 28 37>;
+        bindings = <&kp LG(V)>;
+      };
+      combo_ctrl_alt_gui {
+        timeout-ms = <30>;
+        key-positions = <24 25 26>;
+        bindings = <&kp LCTRL>, <&kp LALT>, <&kp LGUI>;
+      };
     };
 // Reference
 //          00              01              02              03              04              05                                              06              07              08              09              10              11
