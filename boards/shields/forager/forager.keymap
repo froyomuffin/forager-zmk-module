@@ -150,7 +150,7 @@
       combo_ctrl_alt_gui {
         timeout-ms = <30>;
         key-positions = <24 25 26>;
-        bindings = <&kp LCTRL>, <&kp LALT>, <&kp LGUI>;
+        bindings = <&kp LCTRL &kp LALT &kp LGUI>;
       };
     };
 // Reference
