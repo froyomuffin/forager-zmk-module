@@ -196,9 +196,9 @@
         LMOD {
             display-name = "LMOD";
             bindings = <
-            &kp DEL         &none           &none           &kp UP          &none           &kp LBRC                                        &kp RBRC        &kp N7          &kp N8          &kp N9          &kp N0          &none
+            &kp DEL         &none           &none           &kp UP          &none           &kp LPAR                                        &kp RPAR        &kp N7          &kp N8          &kp N9          &kp N0          &none
             &trans          &trans          &kp LEFT        &kp DOWN        &kp RIGHT       &kp LBKT                                        &kp RBKT        &kp N4          &kp N5          &kp N6          &none           &none
-            &trans          &none           &none           &none           &none           &kp LPAR                                        &kp RPAR        &kp N1          &kp N2          &kp N3          &none           &kp BSPC
+            &trans          &none           &none           &none           &none           &kp LBRC                                        &kp RBRC        &kp N1          &kp N2          &kp N3          &none           &kp BSPC
                                                                                             &trans          &kp RET         &none           &trans
             >;
         };
@@ -206,8 +206,8 @@
         RMOD {
             display-name = "RMOD";
             bindings = <
-            &kp DEL         &kp N1          &kp N2          &kp N3          &kp N4          &kp LBKT                                        &kp RBKT        &kp N7          &kp N8          &kp N9          &kp N0          &kp C_VOL_UP
-            &kp LSHIFT      &kp A           &none           &none           &none           &kp LPAR                                        &kp RPAR        &kp N4          &kp N5          &kp N6          &kp C_NEXT      &kp C_VOL_DN
+            &kp DEL         &kp N1          &kp N2          &kp N3          &kp N4          &kp LPAR                                        &kp RPAR        &kp N7          &kp N8          &kp N9          &kp N0          &kp C_VOL_UP
+            &kp LSHIFT      &kp A           &none           &none           &none           &kp LBKT                                        &kp RBKT        &kp N4          &kp N5          &kp N6          &kp C_NEXT      &kp C_VOL_DN
             &kp LCTRL       &kp Z           &kp X           &kp C           &none           &kp LBRC                                        &kp RBRC        &kp N1          &kp N2          &kp N3          &kp C_PREV      &kp BSPC
                                                                                             &kp LALT        &trans          &kp C_PP        &trans
             >;
