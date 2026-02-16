@@ -188,7 +188,7 @@
             bindings = <
             &g_resc         &kp Q           &kp W           &kp E           &kp R           &kp T                                           &kp Y           &kp U           &kp I           &kp O           &kp P           &kp BSLH
             &mt LSHIFT TAB  &mt LSHIFT A    &mt LCTRL S     &mt LALT D      &mt LGUI F      &kp G                                           &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp SQT
-            &l_cgui         &kp Z           &kp X           &kp C           &kp V           &kp B                                           &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp BSPC
+            &l_cgui         &kp Z           &kp X           &kp C           &kp V           &mt LALT B                                      &mt RALT N      &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp BSPC
                                                                                             &l_mgui         &mt LSHFT SPACE &mt RSHFT RET   &mo RM
             >;
         };
