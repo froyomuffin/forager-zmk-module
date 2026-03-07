@@ -18,20 +18,20 @@
 #
 ---
 include:
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     # shield: forager_left rgbled_adapter
     shield: forager_left
     artifact-name: forager_left
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     # shield: forager_right rgbled_adapter
     shield: forager_right
     artifact-name: forager_right
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     # shield: forager_dongle rgbled_adapter
     shield: forager_dongle
     artifact-name: forager_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: settings_reset
     artifact-name: forager_reset
