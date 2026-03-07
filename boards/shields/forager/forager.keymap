@@ -103,10 +103,10 @@
         key-positions = <7 8>;
         bindings = <&kp EQUAL>;
       };
-      combo_lgui {
+      combo_rgui {
         timeout-ms = <30>;
-        key-positions = <24 25>;
-        bindings = <&kp LGUI>;
+        key-positions = <30 31>;
+        bindings = <&kp RGUI>;
       };
       combo_lgui_central {
         timeout-ms = <30>;
@@ -120,7 +120,7 @@
       };
       combo_toggle_game {
         timeout-ms = <30>;
-        key-positions = <36 37 38 39>;
+        key-positions = <28 29 30 31>;
         bindings = <&tog GA>;
       };
       combo_switch_to_config {
