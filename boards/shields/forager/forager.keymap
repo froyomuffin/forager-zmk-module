@@ -186,9 +186,9 @@
         Base {
             display-name = "Base";
             bindings = <
-            &g_resc         &kp Q           &kp W           &kp E           &kp R           &kp T                                           &kp Y           &kp U           &kp I           &kp O           &kp P           &kp BSLH
+            &g_resc         &kp Q           &kp W           &kp E           &kp R           &kp T                                           &kp Y           &kp U           &kp I           &kp O           &kp P           &kp BSPC
             &mt LSHIFT TAB  &mt LSHIFT A    &mt LCTRL S     &mt LALT D      &mt LGUI F      &kp G                                           &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp SQT
-            &l_cgui         &kp Z           &kp X           &kp C           &kp V           &mt LALT B                                      &mt RALT N      &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp BSPC
+            &l_cgui         &kp Z           &kp X           &kp C           &kp V           &mt LALT B                                      &mt RALT N      &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp BSLH
                                                                                             &l_mgui         &mt LSHFT SPACE &mt RSHFT RET   &mo RM
             >;
         };
@@ -196,9 +196,9 @@
         LMOD {
             display-name = "LMOD";
             bindings = <
-            &kp DEL         &none           &none           &kp UP          &none           &kp LPAR                                        &kp RPAR        &none           &kp UP          &none           &none           &none
+            &kp DEL         &none           &none           &kp UP          &none           &kp LPAR                                        &kp RPAR        &none           &kp UP          &none           &none           &kp BSPC
             &trans          &trans          &kp LEFT        &kp DOWN        &kp RIGHT       &kp LBKT                                        &kp RBKT        &kp LEFT        &kp DOWN        &kp RIGHT       &none           &none
-            &trans          &none           &none           &none           &none           &kp LBRC                                        &kp RBRC        &none           &none           &none           &none           &kp BSPC
+            &trans          &none           &none           &none           &none           &kp LBRC                                        &kp RBRC        &none           &none           &none           &none           &none
                                                                                             &trans          &kp RET         &none           &trans
             >;
         };
@@ -206,9 +206,9 @@
         RMOD {
             display-name = "RMOD";
             bindings = <
-            &kp DEL         &kp N1          &kp N2          &kp N3          &kp N4          &kp LPAR                                        &kp RPAR        &kp N7          &kp N8          &kp N9          &kp N0          &kp C_VOL_UP
-            &kp LSHIFT      &kp A           &none           &none           &none           &kp LBKT                                        &kp RBKT        &kp N4          &kp N5          &kp N6          &kp C_NEXT      &kp C_VOL_DN
-            &kp LCTRL       &kp Z           &kp X           &kp C           &none           &kp LBRC                                        &kp RBRC        &kp N1          &kp N2          &kp N3          &kp C_PREV      &kp BSPC
+            &kp DEL         &kp N1          &kp N2          &kp N3          &kp N4          &kp LPAR                                        &kp RPAR        &kp N7          &kp N8          &kp N9          &kp N0          &kp BSPC
+            &kp LSHIFT      &kp A           &none           &none           &none           &kp LBKT                                        &kp RBKT        &kp N4          &kp N5          &kp N6          &kp C_NEXT      &kp C_VOL_UP
+            &kp LCTRL       &kp Z           &kp X           &kp C           &none           &kp LBRC                                        &kp RBRC        &kp N1          &kp N2          &kp N3          &kp C_PREV      &kp C_VOL_DN
                                                                                             &kp LALT        &trans          &kp C_PP        &trans
             >;
         };
