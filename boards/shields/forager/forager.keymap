@@ -56,12 +56,6 @@
             bindings = <&kp ESC>, <&kp GRAVE>;
             mods = <(MOD_LCTL|MOD_LGUI|MOD_RCTL|MOD_RGUI)>;
         };
-        bspc_pipe: backspace_pipe {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp BSPC>, <&kp PIPE>;
-            mods = <(MOD_LSFT)>;
-        };
         l_cgui: left_ctrl_gui {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -192,7 +186,7 @@
         Base {
             display-name = "Base";
             bindings = <
-            &g_resc         &kp Q           &kp W           &kp E           &kp R           &kp T                                           &kp Y           &kp U           &kp I           &kp O           &kp P           &bspc_pipe
+            &g_resc         &kp Q           &kp W           &kp E           &kp R           &kp T                                           &kp Y           &kp U           &kp I           &kp O           &kp P           &kp BSPC
             &mt LSHIFT TAB  &mt LSHIFT A    &mt LCTRL S     &mt LALT D      &mt LGUI F      &kp G                                           &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp SQT
             &l_cgui         &kp Z           &kp X           &kp C           &kp V           &mt LALT B                                      &mt RALT N      &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp BSLH
                                                                                             &l_mgui         &mt LSHFT SPACE &mt RSHFT RET   &mo RM
